@@ -3285,14 +3285,14 @@ input, select, textarea {
 /*masthead */
 .masthead {
 	text-align: center;
-	padding: 4rem 4rem 6rem 4rem ;
+	padding: 8rem 4rem 6rem 4rem ;
 	color: white;
 	position: relative;
 	overflow: hidden;
   }
 
 /* TextLanding */
-.textlanding {
+/* .textlanding {
 	position: absolute;
 	color: #ffffff;
 	padding: 8rem 4rem 6rem 4rem ;
@@ -3501,14 +3501,18 @@ input, select, textarea {
 				display: none;
 			}
 
-	}
+	} */
 
 
 /* Intro */
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 8rem 6rem 4rem 6rem ;
+		/* width: auto; */
+		/* top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%); */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3529,7 +3533,7 @@ input, select, textarea {
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
-		position: relative;
+		position: absolute;
 		cursor: default;
 		text-align: center;
 		z-index: 1;
