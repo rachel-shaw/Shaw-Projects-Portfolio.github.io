@@ -3282,11 +3282,109 @@ input, select, textarea {
 		}
 
 
-/* Intro */
+
+/* masthead */
+.masthead {
+	text-align: center;
+	color: black;
+	position: relative;
+	overflow: hidden;
+  }
+/* 
+header.masthead .intro-text {
+	padding-top: 150px;
+	padding-bottom: 150px;
+  }
+  
+  header.masthead .intro-text .intro-lead-in {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 22px;
+	margin-bottom: 25px;
+	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  header.masthead .intro-text .intro-heading {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 25px;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  } */
+  
+  /* @media (min-width: 768px) {
+	header.masthead .intro-text {
+	  padding-top: 100px;
+	  padding-bottom: 200px;
+	}
+	header.masthead .intro-text .intro-lead-in {
+	  font-size: 16px;
+	  font-style: italic;
+	  color: grey;
+	  line-height: 40px;
+	  margin-bottom: 25px;
+	  margin-right: 20%;
+	  margin-left: 20%;
+	  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	header.masthead .intro-text .intro-heading {
+	  font-size: 75px;
+	  font-weight: 700;
+	  line-height: 75px;
+	  margin-bottom: 50px;
+	  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	} */
+  /* } */
+	@media screen and (max-width: 980px) {
+/* 
+		.intro-text {
+			padding: 4rem 0rem 2rem 0rem ;
+			min-height: 90vh;
+		}
+
+		.intro-text p br {
+				display: none;
+			}
+
+			.intro-text + #header {
+				margin-top: -14rem;
+			} */
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		/* .intro-text {
+			padding: 3rem 0rem 1rem 0rem ;
+			min-height: 80vh;
+		}
+
+		.intro-text h1 {
+				font-size: 3.25rem;
+				line-height: 1.1;
+				margin-bottom: 1rem;
+			}
+
+			.intro-text p {
+				font-size: 1rem;
+				margin-top: 0rem;
+			}
+
+			.intro-text .actions {
+				display: none;
+			} */
+
+	}
+
+
+
+
+  /* Intro */
+
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 6rem 4rem 6rem ;
+		padding: 8rem 0rem 4rem 0rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3307,11 +3405,13 @@ input, select, textarea {
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
-		position: relative;
+		position: absolute;
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		top: 50%;
+		right: 50%;
+		transform: translate(50%,-50%);
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3453,7 +3553,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
+				padding: 4rem 0rem 2rem 0rem ;
 				min-height: 90vh;
 			}
 
@@ -3470,7 +3570,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
+				padding: 3rem 0rem 1rem 0rem ;
 				min-height: 80vh;
 			}
 
