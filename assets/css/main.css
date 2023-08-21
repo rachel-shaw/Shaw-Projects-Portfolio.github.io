@@ -3339,7 +3339,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 0rem 4rem 0rem ;
+		padding: 8rem 4rem 4rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3508,7 +3508,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 0rem 2rem 0rem ;
+				padding: 4rem 2rem 2rem 2rem ;
 				min-height: 90vh;
 			}
 
@@ -3525,7 +3525,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 0rem 1rem 0rem ;
+				padding: 3rem 1rem 1rem 1rem ;
 				min-height: 80vh;
 			}
 
