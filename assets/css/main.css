@@ -3290,89 +3290,44 @@ input, select, textarea {
 	position: relative;
 	overflow: hidden;
   }
-/* 
-header.masthead .intro-text {
-	padding-top: 150px;
-	padding-bottom: 150px;
-  }
-  
-  header.masthead .intro-text .intro-lead-in {
-	font-size: 14px;
-	font-style: italic;
-	line-height: 22px;
-	margin-bottom: 25px;
-	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  
-  header.masthead .intro-text .intro-heading {
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 50px;
-	margin-bottom: 25px;
-	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  } */
-  
-  /* @media (min-width: 768px) {
-	header.masthead .intro-text {
-	  padding-top: 100px;
-	  padding-bottom: 200px;
-	}
-	header.masthead .intro-text .intro-lead-in {
-	  font-size: 16px;
-	  font-style: italic;
-	  color: grey;
-	  line-height: 40px;
-	  margin-bottom: 25px;
-	  margin-right: 20%;
-	  margin-left: 20%;
-	  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-	header.masthead .intro-text .intro-heading {
-	  font-size: 75px;
-	  font-weight: 700;
-	  line-height: 75px;
-	  margin-bottom: 50px;
-	  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	} */
-  /* } */
+
 	@media screen and (max-width: 980px) {
-/* 
-		.intro-text {
-			padding: 4rem 0rem 2rem 0rem ;
+		#intro {
+			padding: 4rem 4rem 2rem 4rem ;
 			min-height: 90vh;
 		}
 
-		.intro-text p br {
+			#intro p br {
 				display: none;
 			}
 
-			.intro-text + #header {
+			#intro + #header {
 				margin-top: -14rem;
-			} */
+			}
+
 
 	}
 
 	@media screen and (max-width: 736px) {
-
-		/* .intro-text {
-			padding: 3rem 0rem 1rem 0rem ;
+		#intro {
+			padding: 3rem 2rem 1rem 2rem ;
 			min-height: 80vh;
 		}
 
-		.intro-text h1 {
+			#intro h1 {
 				font-size: 3.25rem;
 				line-height: 1.1;
 				margin-bottom: 1rem;
 			}
 
-			.intro-text p {
+			#intro p {
 				font-size: 1rem;
 				margin-top: 0rem;
 			}
 
-			.intro-text .actions {
+			#intro .actions {
 				display: none;
-			} */
+			}
 
 	}
 
